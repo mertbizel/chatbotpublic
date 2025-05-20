@@ -1,0 +1,27 @@
+# Python derleme dosyaları
+__pycache__/
+*.py[cod]
+
+# Model checkpoint ve büyük ağırlık dosyaları
+model_kayit/pytorch_model.bin
+
+# Eğitim sırasında oluşan log ve geçici sonuçlar
+results/
+*.log
+
+# Etiketleme modeli
+*.pkl
+
+# Jupyter Notebook önbelleği
+.ipynb_checkpoints/
+
+# Sanal ortam klasörleri
+venv/
+.env/
+
+# IDE ve sistem dosyaları
+*.swp
+.DS_Store
+.vscode/
+.idea/
+model_kayit/model.safetensors
